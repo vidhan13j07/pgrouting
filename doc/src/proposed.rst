@@ -38,19 +38,19 @@ As part of the :ref:`dijkstra`
 .. rubric:: Families
 
 :ref:`astar`
- 
+
 .. include:: aStar-family.rst
    :start-after: index from here
    :end-before: index to here
 
 :ref:`bdAstar`
- 
+
 .. include:: bdAstar-family.rst
    :start-after: index from here
    :end-before: index to here
 
 :ref:`bdDijkstra`
- 
+
 .. include:: bdDijkstra-family.rst
    :start-after: index from here
    :end-before: index to here
@@ -155,12 +155,16 @@ Experimental and Proposed functions
 - :ref:`pgr_labelGraph` - Analyze / label  subgraphs within a network
 - :ref:`pgr_connectedComponentsV` - Analyze / label  subgraphs within a network
 
+.. rubric:: rewrite of pgr_TRSP
+
+- :ref:`pgr_dijkstraTRSP`
 
 .. toctree::
   :hidden:
 
   pgr_labelGraph
   pgr_connectedComponentsV
+  pgr_dijkstraTRSP
 
 
 ..
@@ -171,4 +175,3 @@ Experimental and Proposed functions
     :hidden:
     ..
      ../src/funnyDijkstra/doc/pgr_funnyDijkstra.rst
-
