@@ -93,6 +93,7 @@ As part of the :ref:`dijkstra`
     aStar-family
     bdAstar-family
     bdDijkstra-family
+    flow-family
     withPoints-family
 
     cost-category
@@ -132,11 +133,7 @@ Experimental and Proposed functions
 :ref:`contraction` - Reduce network size using contraction techniques
 
 - :ref:`pgr_contractgraph` - Reduce network size using contraction techniques
-
-
-.. rubric:: Graph Analysis
-
--  :ref:`pgr_labelGraph` - Analyze / label  subgraphs within a network
+- :ref:`pgr_areaContraction` - Reduce network size using contraction techniques
 
 
 :ref:`VRP`
@@ -149,10 +146,21 @@ Experimental and Proposed functions
   :hidden:
 
   contraction-family
-  flow-family
-  pgr_labelGraph
+  pgr_areaContraction
   VRP-category
 
+
+.. rubric:: Graph Analysis
+
+- :ref:`pgr_labelGraph` - Analyze / label  subgraphs within a network
+- :ref:`pgr_connectedComponentsV` - Analyze / label  subgraphs within a network
+
+
+.. toctree::
+  :hidden:
+
+  pgr_labelGraph
+  pgr_connectedComponentsV
 
 
 ..
